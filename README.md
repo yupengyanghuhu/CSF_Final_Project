@@ -72,5 +72,6 @@ def img_resize(imgpath, img_size):
 )
 
 ### References:
-* https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html
+* Francois Chollet, “Building powerful image classification models using very little data”, June 05, 2016
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 * https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
