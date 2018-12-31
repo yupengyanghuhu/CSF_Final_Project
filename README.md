@@ -64,3 +64,7 @@ def img_resize(imgpath, img_size):
 ![alt text][output-img]
 
 [output-img]:resize.png "Output image after crop and resize"
+
+### The image dataset can be found here:
+
+[Plant Disease Recognition Dataset](https://challenger.ai/competition/pdr2018?type=myteam)
