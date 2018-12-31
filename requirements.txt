@@ -1,0 +1,7 @@
+pandas
+numpy
+cv2
+PIL.Image
+keras
+sklearn
+matplotlib
