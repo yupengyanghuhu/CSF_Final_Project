@@ -59,7 +59,7 @@ def img_resize(imgpath, img_size):
             
     return img
 ```
-#### Output image after crop and resize
+#### Sample output (image after crop and resize):
 
 ![alt text][output-img]
 
