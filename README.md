@@ -12,6 +12,11 @@
 
 ### Problem Statement & Dataset Description
  The diagnosis of pests and diseases is essential for agricultural production. We designed algorithms and models to recognize species and diseases in the crop leaves by using Convolutional Neural Network. There is a total of 31,147 images of diseased and healthy plants in our training dataset. These images span 10 original species of plants. Each set of images, including the training, validation, and testing, span 61 different species diseases of plants. Original images have various 2-dimensional sizes with different names.
+ 
+#### The image dataset can be found here:
+
+[Plant Disease Recognition Dataset](https://drive.google.com/file/d/1x5yPRbF6_I-yS0zCS3zU26_3Ns9iXTr3/view?usp=sharing
+)
 
 ### Components of our Repository:
 
@@ -65,11 +70,6 @@ def img_resize(imgpath, img_size):
 ![alt text][output-img]
 
 [output-img]:resize.png "Output image after crop and resize"
-
-### The image dataset can be found here:
-
-[Plant Disease Recognition Dataset](https://drive.google.com/file/d/1x5yPRbF6_I-yS0zCS3zU26_3Ns9iXTr3/view?usp=sharing
-)
 
 ### References:
 * Francois Chollet, “Building powerful image classification models using very little data”, June 05, 2016
