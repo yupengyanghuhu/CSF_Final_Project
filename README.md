@@ -68,4 +68,9 @@ def img_resize(imgpath, img_size):
 
 ### The image dataset can be found here:
 
-[Plant Disease Recognition Dataset](https://challenger.ai/competition/pdr2018?type=myteam)
+[Plant Disease Recognition Dataset](https://drive.google.com/file/d/1x5yPRbF6_I-yS0zCS3zU26_3Ns9iXTr3/view?usp=sharing
+)
+
+### References:
+https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
