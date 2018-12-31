@@ -1,16 +1,18 @@
 # Final Project for the Computer Science Foundation Class
+
+## Group members: Yupeng Yang and Deen Huang
 ---
-## Description:
+### Description:
 
  This Final Project is for our Computer Science Foundation class.
 
-#### This project focuses on the plant disease recognition by using Convolutional Neural Network model
+ This project focuses on the plant disease recognition by using Convolutional Neural Network model
 
-#### We have a group of 2 data scientists: Yupeng Yang and Deen Huang. We build this publicly available repository on GitHub and our project team uses git for version control.
+ We build this publicly available repository on GitHub and our project team uses git for version control.
 ---
 
-## Problem Statement & Dataset Description
-#### The diagnosis of pests and diseases is essential for agricultural production. We designed algorithms and models to recognize species and diseases in the crop leaves by using Convolutional Neural Network. There is a total of 31,147 images of diseased and healthy plants in our training dataset. These images span 10 original species of plants. Each set of images, including the training, validation, and testing, span 61 different species diseases of plants. Original images have various 2-dimensional sizes with different names.
+### Problem Statement & Dataset Description
+ The diagnosis of pests and diseases is essential for agricultural production. We designed algorithms and models to recognize species and diseases in the crop leaves by using Convolutional Neural Network. There is a total of 31,147 images of diseased and healthy plants in our training dataset. These images span 10 original species of plants. Each set of images, including the training, validation, and testing, span 61 different species diseases of plants. Original images have various 2-dimensional sizes with different names.
 
 ### Components of our Repository:
 
