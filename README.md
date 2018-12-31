@@ -2,7 +2,7 @@
 ---
 ## Description:
 
-#### This Final Project is for our Computer Science Foundation class.
+ This Final Project is for our Computer Science Foundation class.
 
 #### This project focuses on the plant disease recognition by using Convolutional Neural Network model
 
