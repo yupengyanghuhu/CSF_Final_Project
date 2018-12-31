@@ -8,6 +8,10 @@
 
 #### We have a group of 2 data scientists: Yupeng Yang and Deen Huang. We build this publicly available repository on GitHub and our project team uses git for version control.
 ---
+
+## Problem Statement & Dataset Description
+#### The diagnosis of pests and diseases is essential for agricultural production. We designed algorithms and models to recognize species and diseases in the crop leaves by using Convolutional Neural Network. There is a total of 31,147 images of diseased and healthy plants in our training dataset. These images span 10 original species of plants. Each set of images, including the training, validation, and testing, span 61 different species diseases of plants. Original images have various 2-dimensional sizes with different names.
+
 ### Components of our Repository:
 
 * README.md
@@ -22,24 +26,41 @@
 
 * setup.py
 
-* Package folder: csf_project_folder:
+* Package folder: csf_modules:
 
-> - config.py: the config info part, including data paths and model paths.
+> - plant_disease_data_process.py: Loading image data, processing data, resizing data and splitting data.
 
-> - data_process.py: this part includes data loading and preprocessing.
+> - basic_cnn_model.py: this part includes build basic_cnn_model and train model.
 
-> - model.py: this part includes machine learning models we used from sklearn.
+> - deep_cnn_model.py: this part includes build deep_cnn_model and train model.
 
-> - main_train.py: this part describes how we train the model, steps includes load train data, model train, and validate model.
+> - plot_loss_accuracy.py: this part plots the loss and accuracy values change with the increasing of epoches.
 
-> - main_predict.py: this part describes how we predict by the model, steps includes load data, load model, segment words and model predict.
-
-### Installation
-Type the following commands in your terminal.
+### Sample codes:
+```python
+def img_resize(imgpath, img_size):
+    
+    # resize the image to the specific size
+    img = PIL.Image.open(imgpath)
+    if (img.width > img.height):
+        scale = float(img_size) / float(img.height)
+        img = np.array(cv2.resize(np.array(img), (int(img.width * scale + 1), img_size))).astype(np.float32)
+    else:
+        scale = float(img_size) / float(img.width)
+        img = np.array(cv2.resize(np.array(img), (img_size, int(img.height * scale + 1)))).astype(np.float32)
+        
+    # crop the proper size and scale to [-1, 1]
+    img = (img[
+            (img.shape[0] - img_size) // 2:
+            (img.shape[0] - img_size) // 2 + img_size,
+            (img.shape[1] - img_size) // 2:
+            (img.shape[1] - img_size) // 2 + img_size,
+            :]-127)/128
+            
+    return img
 ```
-git clone https://github.com/deenhuang/CSF-DATS-6450-FINAL.git
+#### Output image after crop and resize
 
-cd CSF-DATS-6450-FINAL
+![alt text][output-img]
 
-python3 setup.py install 
-```
+[output-img]:resize.png "Output image after crop and resize"
