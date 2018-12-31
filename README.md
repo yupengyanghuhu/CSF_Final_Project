@@ -3,6 +3,7 @@
 ## Description:
 
 #### This Final Project is for our Computer Science Foundation class.
+
 #### We have a group of 2 data scientists: Yupeng Yang and Deen Huang. We build this publicly available repository on GitHub and our project team uses git for version control.
 ---
 ### Components of our Repository:
