@@ -21,7 +21,7 @@ pd.set_option('display.precision', 4)
 pd.set_option('display.float_format', lambda x: '%.4f' % x)
 
 #Parameters:
-IMAGE_SIZE = 128 #Cropping size to 128 pixels
+IMAGE_SIZE = 128 #Cropping size to 128 * 128 pixels
 RANDOM_SEED = 121
 VALIDATION_SPLIT = 0.10
 
