@@ -71,7 +71,7 @@ def img_resize(imgpath, img_size):
 [output-img]:resize.png "Output image after crop and resize"
 
 ### References:
-* Francois Chollet, “Building powerful image classification models using very little data”, June 05, 2016
+* Francois Chollet, “Building powerful image classification models using very little data”, June 05, 2016 <br />
 https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
-* Ziadé, Tarek. “Quick Start.” Quick Start - The Hitchhiker's Guide to Packaging 1.0 Documentation 
+* Ziadé, Tarek. “Quick Start.” Quick Start - The Hitchhiker's Guide to Packaging 1.0 Documentation <br />
 https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html
