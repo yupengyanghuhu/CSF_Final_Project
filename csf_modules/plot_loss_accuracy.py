@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+#A function to plot loss and accuracy 
 def plot_graph(history):
     #graph of Train and validation accuracy
     plt.clf()   # clear figure
