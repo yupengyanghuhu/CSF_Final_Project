@@ -41,7 +41,7 @@
 
 > - plot_loss_accuracy.py: this part plots the loss and accuracy values change with the increasing of epoches.
 
-### Sample codes:
+### Sample codes (for image resize):
 ```python
 def img_resize(imgpath, img_size):
     
