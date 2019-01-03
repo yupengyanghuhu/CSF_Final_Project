@@ -13,7 +13,7 @@ LEARNING_RATE = 0.001
 SPECIES_CLASSES = 14 #The number of total plant species classes
 DISEASE_CLASSES = 61 #The number of total dissease classes
 
-#Defining basic_cnn
+#Defining basic_cnn model
 def basic_cnn():
     model = Sequential()
     
