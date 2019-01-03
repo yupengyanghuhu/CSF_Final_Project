@@ -1,6 +1,1 @@
 
-adaf
-
-
-def re():
-  print( 
